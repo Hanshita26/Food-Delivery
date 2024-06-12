@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.part-1 {
+    background-color: #393e46;
+    display: flex;
+    color: white;
+    height: 1cm;
+    gap: 0.8cm;
+    padding: 12px;
+}
+
+.symbols {
+    color: white;
+    display: flex;
+    gap: 0.4cm;
+    margin-left: 18cm;
+}
+
+.part-2 {
+    background-color: white;
+    color: black;
+    padding: 17px;
+    margin-bottom: 0;
+}
+
+.subpart1 {
+    display: flex;
+}
+
+.name {
+    font-size: 0.9cm;
+    font-weight: bolder;
+}
+
+.buttons {
+    display: flex;
+    border-radius: 30px;
+    color: black;
+    gap: 0.7cm;
+    margin-left: auto;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5 {
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover {
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #bae8e8;
+    height: 0.7cm;
+    width: 2cm;
+    text-align: center;
+}
+
+#btn6 {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 0.6cm;
+    width: 3cm;
+    margin-top: 0.1cm;
+    cursor: pointer;
+}
+
+#btn6:hover {
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+}
+
+.img-fluid {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0;
+    display: block;
+}
+
+.midSection {
+    margin-top: 1px;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+}
+
+.writtenPart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.3cm;
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+    padding-top: 1.5cm;
+}
+
+#book {
+    height: 40px;
+    width: 110px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 118px;
+    background-color: #AD343E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#menu {
+    height: 40px;
+    width: 110px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 118px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.part-3 {
+    height: 9cm;
+    background-color: white;
+    padding-left: 3.3cm;
+    padding-top: 1cm;
+}
+
+#item1, #item2, #item3, #item4 {
+    height: 5.8cm;
+    width: 6cm;
+    border: 2px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+#heading2 {
+    font-size: 1cm;
+    text-align: center;
+    padding-top: 0.5cm;
+}
+
+#explore {
+    color: #AD343E;
+    font-weight: bold;
+}
+
+#tables tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5cm; /* Add gap between items */
+}
+
+.part-4 {
+    height: 15cm;
+    background-color: whitesmoke;
+    padding: 10px;
+    position: relative; /* Ensure the parent element is relative */
+}
+
+#tableNumber2 tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 4cm;
+    padding: 15px;
+}
+
+#RollsImage {
+    height: 11cm;
+    width: 14cm;
+}
+
+#MoreAboutUs {
+    height: 0.9cm;
+    width: 3.4cm;
+    cursor: pointer;
+    border: 1.5px solid black;
+    border-radius: 119px;
+    font-weight: bold;
+}
+
+.contact {
+    position: absolute;
+    top: 7cm; 
+    left: 9cm; /* Margin-left of 9cm */
+    height: 6cm;
+    width: 7.5cm;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#ComeandVisit {
+    text-align: center;
+}
+
+.part-5{
+    height: 15cm;
+    background-color: white;
+    gap: 1.5cm;
+}
+
+#uniqueServices{
+  margin-left: 3.5cm;
+   padding-top: 30px;
+}
+.images{
+    height: 5cm;
+    width: 5cm;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.images:hover{
+    opacity: 0.5;
+}
+.services{
+   margin-left: 1cm;
+   padding: 95px;
+
+}
+
+
+.part-6 {
+    height: 13cm;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.FoodDelivery {
+    margin: 30px;
+    margin-left: 2cm;
+    gap: 2cm;
+}
+
+.FoodDelivery td {
+    vertical-align: top; 
+    padding-left: 2cm; 
+}
+
+#BigImage {
+    height: 8cm;
+    width: 6cm;
+    object-fit: cover;
+}
+
+#twoImages {
+    height: 5cm;
+    width: 5cm;
+    object-fit: cover;
+    display: block;
+}
+
+.part-7{
+    background-color: white;
+    height: 12cm;
+}
+
+#customers{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.customerTable td{
+  gap: 2cm;
+  border: 1px solid black;
+  height: 9cm;
+width: 7cm;
+background-color: antiquewhite;
+text-align: center;
+}
+
+.BigText{
+   color: #AD343E;
+   font-weight: bold;
+   font-size: large;
+}
+
+.customerTable{
+ margin-left: 5.5cm;
+ padding-top: 20px;
+}
+
+.part-8 {
+    height: 20cm;
+    background-color: whitesmoke;
+}
+
+.upperPortion {
+    display: flex;
+    padding-top: 1cm;
+    gap: 21cm;
+    padding-left: 2.5cm;
+}
+
+.lowerPortion {
+    margin-left: 1cm;
+    padding: 10px;
+}
+
+.burger {
+    height: 11cm;
+    width: 13cm;
+    margin-left: 0.3cm;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+#articles {
+    height: 1cm;
+    width: 3.5cm;
+    border: 1px solid black;
+    border-radius: 110px;
+    background-color: #AD343E;
+    color: white;
+    padding: 5px;
+}
+
+.food1 {
+    height: 6cm;
+    width: 6.5cm;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.sideportion {
+    display: inline-block;
+    vertical-align: top; 
+    margin-left: 3.5cm; 
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.lowerPortion td{
+    height: 7cm;
+    width: 6cm;
+    background-color: white;
+}
+
+.sideportion tr{
+    text-align: center;
+}
+.writtenPortion {
+    position: absolute;
+    top: 100cm; 
+  margin-left: 9cm;
+    transform: translateX(-50%);
+    color: black;
+    
+}
+
+.part-9{
+    height: 15cm;
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    justify-content: space-evenly;
+}
+
+.subpart-2 a,.subpart-3 a{
+  color: white;
+}
+
+.LastSymbols{
+display: flex;
+font-weight: bold;
+color: white;
+font-size: 0.6cm;
+gap: 0.4cm;
+
+}
+
+
+.copyright{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+      height: 2cm;
+      background-color: grey;
+      border-top: 1px solid black;
+      padding-top: 0.6cm;
+  }
